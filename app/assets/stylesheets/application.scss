@@ -1,0 +1,17 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "home";
+@import "portfolio";
+@import "overlay_menu";
+@import "video";
+@import "slick";
+@import "slick-theme";
+
+@font-face {
+  font-family: 'bar';
+  src: font-url('bellerose.ttf');
+}
+
+body{
+  font-family: bar;
+}

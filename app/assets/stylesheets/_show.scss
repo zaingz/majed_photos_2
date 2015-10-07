@@ -1,0 +1,73 @@
+.portfolio_show{
+  height: 100vh;
+  background-color: #F1EFED;
+  overflow-x: hidden;
+
+  .slides{
+    margin-top: 80px;
+    div{
+      img{
+        max-width: 700px ;
+        margin: 0 auto;
+
+      }
+    }
+
+    .slick-slide:focus{     outline: -webkit-focus-ring-color auto 0px;}
+
+    .slick-prev:before, .slick-next:before{font-size: 40px;color: #2E2F30}
+    .slick-prev{
+      z-index: 2;
+      width: 80px;
+      padding-left: 35px;
+
+    }
+    .slick-next{
+      z-index: 2;
+      width: 80px;
+      padding-right: 60px;
+
+    }
+
+  }
+
+}
+
+
+#p_info{
+  cursor: pointer; cursor: hand;
+}
+#p_share{
+  cursor: pointer; cursor: hand;
+}
+
+
+.overlay_info{
+  color:black;
+  z-index: 999;
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.95);
+
+  .overlay_close{
+    margin-top: 10px;
+  }
+
+}
+
+.overlay_share{
+  color:black;
+  z-index: 999;
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.95);
+
+  .overlay_close{
+    margin-top: 10px;
+  }
+
+}
