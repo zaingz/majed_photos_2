@@ -42,7 +42,7 @@
 
 
   .link{width: 50%; transition: all 0.5s; padding-top: 25%;height:100vh;z-index: 2}
-  #vid{background-color: rgba(66,91,189,0.3)}
+  #vid{background-color: rgba(192,120,69,0.3)}
   #photo{background-color: rgba(192,187,53,0.3)}
 
   a, a > span {
@@ -61,7 +61,7 @@
     padding-left: 45px;
     padding-right: 45px;
     font-size: 45px;
-
+/*
     &:before, &:after {
       left: 0;
       top: 0;
@@ -80,7 +80,7 @@
     }
     &:hover:before, &:hover:after {
       transform:  scale(1, 1);
-    }
+    }*/
   }
 
 }

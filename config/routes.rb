@@ -2,10 +2,21 @@ Rails.application.routes.draw do
 
 
 
+
+
   get 'video' => 'video#index'
+  get 'video/:id' => 'video#show'
 
   get 'portfolio' => 'portfolio#index'
   get 'portfolio/:id' => 'portfolio#show'
+
+  get 'project/:id' => 'portfolio#project'
+
+  get 'event' => 'event#index'
+
+  get 'blog' => 'blog#index'
+  get 'blog/:id' => 'blog#show'
+
 
   root 'home#index'
 

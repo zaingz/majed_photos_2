@@ -1,0 +1,20 @@
+.fixed{
+  position: fixed;
+  height: 100vh;
+  background-color: white;
+  .p_tittle{
+    margin-top: 45%;
+    text-align: center;
+  }
+  .p_info{
+    margin-top: 49%;
+  }
+}
+
+.p_imgs{
+ padding: 0;
+  .col-sm-12{
+    margin-bottom: 10%;
+    img{width: 100%; margin: 0 auto;}
+  }
+}

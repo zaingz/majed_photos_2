@@ -7,4 +7,8 @@ class PortfolioController < ApplicationController
 
   end
 
+  def project
+
+  end
+
 end

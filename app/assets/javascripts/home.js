@@ -10,7 +10,7 @@ $(document).ready(function() {
         }
     });
 
-    $("#vid").on({
+    $("#vid > a").on({
         mouseenter: function () {
             $("#photo").css({"width": "40%"});
             $("#vid").css({"width": "60%"});
@@ -21,7 +21,7 @@ $(document).ready(function() {
         }
     });
 
-    $("#photo").on({
+    $("#photo > a ").on({
         mouseenter: function () {
             $("#photo").css({"width": "60%"});
             $("#vid").css({"width": "40%"});

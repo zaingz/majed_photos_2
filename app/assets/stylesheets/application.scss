@@ -4,6 +4,8 @@
 @import "portfolio";
 @import "overlay_menu";
 @import "video";
+@import "event";
+@import "blog";
 @import "slick";
 @import "slick-theme";
 
@@ -14,4 +16,5 @@
 
 body{
   font-family: bar;
+  background-color: ghostwhite;
 }
