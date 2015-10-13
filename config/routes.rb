@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get 'project/:id' => 'portfolio#project'
 
   get 'event' => 'event#index'
+  get 'event/:id' => 'event#show'
+
 
   get 'blog' => 'blog#index'
   get 'blog/:id' => 'blog#show'

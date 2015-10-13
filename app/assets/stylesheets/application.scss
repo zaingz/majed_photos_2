@@ -18,3 +18,45 @@ body{
   font-family: bar;
   background-color: ghostwhite;
 }
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.vid .caption {padding-left:49%!important;}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.slick-arrow{display: none !important;}
+.grid-sizer,
+.grid-item {
+  width: 48.5%;
+  margin: 5px;
+}
+.index_main .link {
+	padding-top: 35%;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.grid-sizer,
+.grid-item {
+  width: 99.5%;
+  margin: 5px;
+}
+.index_main .link {
+	padding-top: 55%;
+}
+}

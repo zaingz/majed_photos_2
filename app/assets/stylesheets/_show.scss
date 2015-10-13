@@ -49,10 +49,12 @@
   position: fixed;
   height: 100vh;
   width: 100vw;
+
   background: rgba(255, 255, 255, 0.95);
 
   .overlay_close{
     margin-top: 10px;
+    cursor: pointer; cursor: hand;
   }
 
 }
@@ -68,6 +70,7 @@
 
   .overlay_close{
     margin-top: 10px;
+    cursor: pointer; cursor: hand;
   }
 
   .share_links{
