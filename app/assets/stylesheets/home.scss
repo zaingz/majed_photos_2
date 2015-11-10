@@ -44,7 +44,9 @@
 
   text-align: center;
   font-size: 25px;
+  display: -webkit-flex;
   display: flex;
+
 
 
   .link{width: 50%; transition: all 0.5s; padding-top: 25%;height:100vh;z-index: 2}

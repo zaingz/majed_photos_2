@@ -1,17 +1,14 @@
 
 $(document).ready( function() {
 // HAMBURGLERv2
-
+    togglescroll();
     function togglescroll() {
         $('body').on('touchstart', function (e) {
             if ($('body').hasClass('noscroll')) {
                 e.preventDefault();
             }
         });
-    }
 
-    $(document).ready(function () {
-        togglescroll()
         $(".icon").click(function () {
             $(".mobilenav").fadeToggle(500);
             $(".top-menu").toggleClass("top-animate");
@@ -19,6 +16,10 @@ $(document).ready( function() {
             $(".mid-menu").toggleClass("mid-animate");
             $(".bottom-menu").toggleClass("bottom-animate");
         });
+    }
+
+    $(document).ready(function () {
+
     });
 
 // PUSH ESC KEY TO EXIT

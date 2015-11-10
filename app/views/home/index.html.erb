@@ -2,6 +2,14 @@
   <div class="bg_image">
     <%= image_tag 'bg_image.jpg', id: 'bg_img' %>
   </div>
+  <style type="text/css">
+      @-moz-document url-prefix() {
+          .link {
+              padding-top: 50%;
+          }
+      }
+  </style>
+
 
   <div class="row index_main">
     <div class="link" id="vid"><a href="<%= video_path %>" class="effect-2">Video</a></div>
@@ -9,3 +17,6 @@
   </div>
 
 </div>
+
+
+
